@@ -1,0 +1,33 @@
+{
+  "name": "baseline-docs",
+  "version": "0.0.1",
+  "description": "Documentation for https://baseline.dev",
+  "main": "index.js",
+  "scripts": {
+    "build": "node -r esm index.js",
+    "build:css": "postcss ./src/static/css/style.css -c postcss.config.js -o build/static/css/layout.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseline-dev/docs.git"
+  },
+  "author": "Nikolai Onken",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/baseline-dev/docs/issues"
+  },
+  "homepage": "https://docs.baseline.dev",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@tailwindcss/ui": "^0.1.3",
+    "esm": "^3.2.25",
+    "gray-matter": "^4.0.2",
+    "lodash.merge": "^4.6.2",
+    "marked": "^0.8.2",
+    "nunjucks": "^3.2.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-import": "^12.0.1",
+    "recursive-readdir": "^2.2.2",
+    "tailwindcss": "^1.2.0"
+  }
+}

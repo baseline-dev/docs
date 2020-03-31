@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply text-3xl;
+    @apply leading-8;
+    @apply font-extrabold;
+    @apply tracking-tight;
+    @apply text-gray-900;
+    @apply mb-6;
+}
+
+h2 {
+    @apply text-2xl;
+    @apply leading-8;
+    @apply font-extrabold;
+    @apply tracking-tight;
+    @apply text-gray-900;
+    @apply my-3;
+}
+
+h3 {
+    @apply text-xl;
+    @apply leading-8;
+    @apply font-extrabold;
+    @apply tracking-tight;
+    @apply text-gray-900;
+    @apply my-3;
+}
+
+p {
+    @apply mb-2;
+}
+
+ul {
+    list-style: disc;
+    @apply pl-12;
+}
+
+a {
+    @apply underline;
+}
+
+nav a {
+    @apply no-underline;
+}

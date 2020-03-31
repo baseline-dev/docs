@@ -40,7 +40,6 @@ Baseline.prototype._readFiles = async function () {
     const content = readFileSync(join(file), 'utf-8');
     const data = matter(content);
     const fileName = relative(this.source, file);
-
     this.ctx[fileName] = data;
   }
 };
@@ -54,7 +53,6 @@ Baseline.prototype._compileFiles = async function () {
       content: marked(props.content)
     }));
   }
-
   return this;
 };
 
@@ -66,11 +64,13 @@ Baseline.prototype._writeToDisk = async function () {
     }
     writeFileSync(join(this.destination, dirname(file), `${basename(file, '.md')}.html`), this.ctx[file].html);
   }
-
   return this;
 };
 
 Baseline.prototype._runPlugins = async function () {
+  // Sorry for the below, there seems no other way to execute async functions serially.
+  // We could add some dependency but this is just the easiest way it appears.
+  // Only change if you don't exchange for some external dependency.
   await this.plugins.reduce(async (previousPromise, nextAsyncFunction) => {
     await previousPromise;
     await nextAsyncFunction(this);

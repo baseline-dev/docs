@@ -6,6 +6,10 @@ import merge from 'lodash.merge';
 import readdir from 'recursive-readdir';
 import nunjucks from 'nunjucks';
 
+function renameFromMdToHtml(file) {
+  return `${basename(file, '.md')}.html`;
+}
+
 function Baseline(dirname = __dirname) {
   if (!(this instanceof Baseline)) return new Baseline(__dirname);
   this.dirname = dirname;
@@ -49,9 +53,11 @@ Baseline.prototype._compileFiles = async function () {
 
   for (const file in this.ctx) {
     const props = this.ctx[file];
-    this.ctx[file].html = nunjucks.render(join(this.templates, props.data.layout || 'layout.njk'), merge(props.data, {
+    const template = join(this.templates, props.data.layout || 'layout.njk');
+    const data = merge(props.data, {
       content: marked(props.content)
-    }));
+    });
+    this.ctx[file].html = nunjucks.render(template, data);
   }
   return this;
 };
@@ -62,7 +68,8 @@ Baseline.prototype._writeToDisk = async function () {
     if (!existsSync(path)) {
       mkdirSync(path, {recursive: true});
     }
-    writeFileSync(join(this.destination, dirname(file), `${basename(file, '.md')}.html`), this.ctx[file].html);
+    const out = join(this.destination, dirname(file), renameFromMdToHtml(file));
+    writeFileSync(out, this.ctx[file].html);
   }
   return this;
 };
@@ -93,7 +100,6 @@ Baseline()
     for (const file in baseline.ctx) {
       const props = baseline.ctx[file];
       props.data.test = 'YO!';
-      console.log(props.data)
     }
     return this;
   })

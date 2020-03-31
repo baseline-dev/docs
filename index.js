@@ -1,4 +1,5 @@
 import Baseline from './lib/generator';
+import slug from 'slug';
 
 Baseline()
   .templates('./templates')
@@ -7,7 +8,17 @@ Baseline()
   .use(async (baseline) => {
     for (const file in baseline.ctx) {
       const props = baseline.ctx[file];
-      props.data.test = 'YO!';
+      if (!props.data.pageHeaders) {
+        props.data.pageHeaders = []
+      };
+
+      const matches = props.content.matchAll(/^## (.*)$/gm);
+      for (const match of matches) {
+        props.data.pageHeaders.push({
+          title: match[1],
+          slug: slug(match[1])
+        });
+      }
     }
     return this;
   })

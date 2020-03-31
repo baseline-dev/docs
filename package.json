@@ -28,6 +28,7 @@
     "postcss-cli": "^7.1.0",
     "postcss-import": "^12.0.1",
     "recursive-readdir": "^2.2.2",
+    "slug": "^2.1.1",
     "tailwindcss": "^1.2.0"
   }
 }

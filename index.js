@@ -25,7 +25,7 @@ function slugToTitle(slug) {
 
 function getBasePath(path) {
   const parts = path.split(sep);
-  return parts.length === 2 ? `/${parts.shift()}` : '/';
+  return parts.length === 2 ? `/${parts.shift()}` : '';
 }
 
 function parseSidebarFile(file) {
@@ -73,11 +73,12 @@ async function sideBar(baseline) {
     const path = relative(this.source, file);
     const link = getBasePath(path);
 
+console.log(link)
     sidebar.push({
       title: props.title,
       index: props.index,
       icon: readFileSync(join(this.dirname, 'src', 'static', 'img', props.icon), 'utf8'),
-      link
+      link: `${link}/index.html`
     });
   }
 

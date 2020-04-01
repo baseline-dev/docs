@@ -8,7 +8,7 @@ const CONFIG = {
     docsUrl: 'https://docs.baseline.dev'
   },
   development: {
-    docsUrl: 'https://localhost'
+    docsUrl: '.'
   }
 };
 

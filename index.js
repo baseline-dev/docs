@@ -1,7 +1,7 @@
 import Baseline from './lib/generator';
 import slug from 'slug';
-import {relative, sep, join} from 'path';
-import {readFileSync} from "fs";
+import {relative, sep, join, basename, dirname, parse} from 'path';
+import {readFileSync} from 'fs';
 
 const CONFIG = {
   production: {
@@ -41,6 +41,26 @@ function parseSidebarFile(file) {
   return props;
 }
 
+function renameFromMdToHtml(file) {
+  return `${basename(file, '.md')}.html`;
+}
+
+function getSubPages(path, ctx) {
+  const pages = [];
+  for (const file in ctx) {
+    const regexp = new RegExp(`^${path}\/(?!index\.md)`);
+    const isMatch = regexp.test(`/${file}`)
+    const isNotRootPage = path.length;
+    if (isNotRootPage && isMatch) {
+      pages.push({
+        title: capitalizeWord(parse(file).name),
+        link: `/${join(dirname(file), renameFromMdToHtml(file))}`
+      });
+    }
+  }
+  return pages;
+}
+
 async function pageHeaders(baseline) {
   for (const file in baseline.ctx) {
     const props = baseline.ctx[file];
@@ -73,12 +93,12 @@ async function sideBar(baseline) {
     const path = relative(this.source, file);
     const link = getBasePath(path);
 
-console.log(link)
     sidebar.push({
       title: props.title,
       index: props.index,
       icon: readFileSync(join(this.dirname, 'src', 'static', 'img', props.icon), 'utf8'),
-      link: `${link}/index.html`
+      link: `${link}/index.html`,
+      subPages: getSubPages(getBasePath(path), baseline.ctx)
     });
   }
 

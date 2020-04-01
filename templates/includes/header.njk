@@ -86,7 +86,7 @@
             <nav class="mt-5 flex-1 px-4 bg-gray-100">
                 {% for item in sidebar %}
                 <a href="{{ config.docsUrl }}{{ item.link }}"
-                   class="mt-1 group flex items-center px-2 py-2 text-sm leading-5 font-medium focus:outline-none
+                   class="mt-2 group flex items-center px-2 py-2 text-sm leading-5 font-semibold focus:outline-none
                    {% if item.link === activePath %}
                    text-gray-900 rounded-md bg-gray-200 hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-200
                    {% else %}
@@ -98,6 +98,18 @@
                     </span>
                     {{ item.title }}
                 </a>
+                {% for subPage in item.subPages %}
+                <a href="{{ config.docsUrl }}{{ subPage.link }}"
+                   class="mb-1 group flex items-center px-4 ml-3 text-sm leading-5 focus:outline-none
+                   {% if item.link === activePath %}
+                   text-gray-900 hover:text-gray-900 focus:bg-gray-200
+                   {% else %}
+                   text-gray-600 hover:text-gray-900
+                   {% endif %}
+                   transition ease-in-out duration-150">
+                    {{ subPage.title }}
+                </a>
+                {% endfor %}
                 {% endfor %}
             </nav>
         </div>

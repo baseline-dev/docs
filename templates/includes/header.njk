@@ -48,6 +48,18 @@
                     </span>
                         {{ item.title }}
                     </a>
+                    {% for subPage in item.subPages %}
+                    <a href="{{ config.docsUrl }}{{ subPage.link }}"
+                       class="mb-1 group flex items-center px-4 ml-3 text-sm leading-5 focus:outline-none
+                   {% if item.link === activePath %}
+                   text-gray-900 hover:text-gray-900 focus:bg-gray-200
+                   {% else %}
+                   text-gray-600 hover:text-gray-900
+                   {% endif %}
+                   transition ease-in-out duration-150">
+                        {{ subPage.title }}
+                    </a>
+                    {% endfor %}
                     {% endfor %}
                 </nav>
             </div>

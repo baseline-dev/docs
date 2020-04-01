@@ -2,12 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply text-gray-800;
+}
+
 h1 {
     @apply text-3xl;
     @apply leading-8;
     @apply font-extrabold;
     @apply tracking-tight;
-    @apply text-gray-900;
+    @apply text-gray-800;
     @apply my-6;
 }
 
@@ -16,7 +20,7 @@ h2 {
     @apply leading-8;
     @apply font-extrabold;
     @apply tracking-tight;
-    @apply text-gray-900;
+    @apply text-gray-800;
     @apply my-3;
 }
 
@@ -25,7 +29,7 @@ h3 {
     @apply leading-8;
     @apply font-extrabold;
     @apply tracking-tight;
-    @apply text-gray-900;
+    @apply text-gray-800;
     @apply my-3;
 }
 

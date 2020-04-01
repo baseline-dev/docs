@@ -3,24 +3,27 @@ layout: layout.njk
 title: Getting Started with Baseline
 ---
 
-Welcome to Baseline! We're super happy that you found these pages, so we can help you get started.
+Welcome to Baseline 🎉 We're really happy that you made it to the documentation pages of Baseline. 
+If you ever run into any issues which are not addressed by the docs, please reach out to us [support@baseline.dev](mailto:support@baseline.dev).  
 
 ## How do I get access to Baseline?
 
 **Short answer:** 
-Head to [http://baseline.dev] and request an invite.
+Head to http://baseline.dev and request an invite.
 
 **Longer answer:** 
 We decided to make Baseline invite only for now. 
-We do this because we are running the Baseline business in a peculiar way: We don't believe in bombarding you with email campaigns, tracking your behaviour and secretly selling your data to other companies.
-Instead, we want to build long-lasting relationships, with you! We think that we can only do this, if Baseline provides real value to you.
-And to provide real value to you, we work with you and make sure that your needs are covered.
-Eventually, Baseline will become open to everybody.
+We do this because we want you to have a delightful experience when you try out Baseline for the first time.
+This means that we aim to cover each and every external service you are using. This takes a bit of time. 
+When you request an invite, we ask you to share the services which you are using. 
+There is a high chance that we already support your needs, and if so, we'll send you an invite right away.
+If not, we will prioritize the missing integrations and let you know once they have launched.
+Eventually, once we support a big party of services used by you, we will open Baseline to everybody.
 
 ## Getting started with the Baseline CLI
 
 First, head to https://baseline.dev/download and download the Baseline CLI. 
-Currently we support OSX. After downloading the CLI, unzip the file.
+Currently we support OSX. After downloading the CLI, unzip the file and launch the CLI.
 
 ## Requesting the access token
 

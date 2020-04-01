@@ -8,7 +8,7 @@ h1 {
     @apply font-extrabold;
     @apply tracking-tight;
     @apply text-gray-900;
-    @apply mb-6;
+    @apply my-6;
 }
 
 h2 {

@@ -12,7 +12,19 @@ const CONFIG = {
   }
 };
 
-const config = CONFIG[process.env.NODE_ENV === 'production' ? 'production' : 'development'];
+function editInGitHub(baseline) {
+  for (const file in baseline.ctx) {
+    const props = baseline.ctx[file];
+    props.data.repoUrl = `https://github.com/baseline-dev/docs/blob/master/src/content/${file}`;
+  }
+}
+
+function config(baseline) {
+  for (const file in baseline.ctx) {
+    const props = baseline.ctx[file];
+    props.data.config = CONFIG[process.env.NODE_ENV === 'production' ? 'production' : 'development'];
+  }
+}
 
 function capitalizeWord(word) {
   if (typeof word !== 'string') return '';
@@ -121,10 +133,6 @@ Baseline()
   .destination('./build')
   .use(pageHeaders)
   .use(sideBar)
-  .use(function(baseline) {
-    for (const file in baseline.ctx) {
-      const props = baseline.ctx[file];
-      props.data.config = config;
-    }
-  })
+  .use(config)
+  .use(editInGitHub)
   .build();

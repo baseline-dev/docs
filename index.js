@@ -3,6 +3,17 @@ import slug from 'slug';
 import {relative, sep, join} from 'path';
 import {readFileSync} from "fs";
 
+const CONFIG = {
+  production: {
+    docsUrl: 'https://docs.baseline.dev'
+  },
+  development: {
+    docsUrl: 'https://localhost'
+  }
+};
+
+const config = CONFIG[process.env.NODE_ENV === 'production' ? 'production' : 'development'];
+
 function capitalizeWord(word) {
   if (typeof word !== 'string') return '';
   return word.charAt(0).toUpperCase() + word.slice(1);
@@ -89,4 +100,10 @@ Baseline()
   .destination('./build')
   .use(pageHeaders)
   .use(sideBar)
+  .use(function(baseline) {
+    for (const file in baseline.ctx) {
+      const props = baseline.ctx[file];
+      props.data.config = config;
+    }
+  })
   .build();

@@ -16,7 +16,7 @@ Baseline()
       for (const match of matches) {
         props.data.pageHeaders.push({
           title: match[1],
-          slug: slug(match[1])
+          slug: slug(match[1]).toLowerCase()
         });
       }
     }

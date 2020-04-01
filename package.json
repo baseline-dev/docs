@@ -4,8 +4,9 @@
   "description": "Documentation for https://baseline.dev",
   "main": "index.js",
   "scripts": {
-    "build": "node -r esm index.js",
-    "build:css": "postcss ./src/static/css/style.css -c postcss.config.js -o build/static/css/layout.css"
+    "build": "rm -rf build && NODE_ENV=production npm run build:css && npm run build:docs",
+    "build:css": "postcss ./src/static/css/style.css -c postcss.config.js -o build/static/css/layout.css",
+    "build:docs": "node -r esm index.js"
   },
   "repository": {
     "type": "git",

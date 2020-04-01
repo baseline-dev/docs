@@ -4,14 +4,13 @@
     <meta charset="UTF-8"/>
     <title>{{ title }}</title>
     <meta name="description" content="{{ description }}">
-    <link rel="stylesheet" href="https://static.baseline.dev/ad317e663d76/css/style.css">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
     <link rel="stylesheet" href="static/css/layout.css">
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
 
-<div class="flex" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
+<div class="flex min-h-screen" x-data="{ sidebarOpen: false }" @keydown.window.escape="sidebarOpen = false">
     {% include './includes/header.njk' %}
     <div class="flex flex-col w-0 flex-1">
         <div class="md:hidden pl-1 pt-1 sm:pl-3 sm:pt-3">

@@ -58,7 +58,7 @@
 
 <!-- Static sidebar for desktop -->
 <div class="hidden md:flex overflow-auto">
-    <div class="flex flex-col w-64 border-r border-gray-200 bg-gray-100">
+    <div class="flex flex-col w-64 bg-gray-100">
         <div class="h-0 flex-1 flex flex-col pt-5 pb-4">
             <div class="flex items-baseline flex-shrink-0 px-4">
                 <svg width="129px" height="19px" viewBox="0 0 179 26" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@
                 <span class="pl-1 font-semibold">Docs</span>
             </div>
             <!-- Sidebar component, swap this element with another sidebar if you like -->
-            <nav class="mt-5 flex-1 px-2 bg-gray-100">
+            <nav class="mt-5 flex-1 px-4 bg-gray-100">
                 {% for item in sidebar %}
                 <a href="{{ item.link }}"
                    class="mt-1 group flex items-center px-2 py-2 text-sm leading-5 font-medium focus:outline-none

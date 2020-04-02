@@ -11,5 +11,10 @@ With the Baseline for GitHub integration you can easily review who has access to
 Authentication with GitHub is easy. Simply click on the GitHub card on the services page. 
 You need to be organization admin if you want to be able to baseline organizations.
 Please make sure that you uncheck organizations which you don't want to baseline in the authentication flow.
-  
+
+## Required OAuth permissions
+
+* user:email
+* repo
+* read:org  
 

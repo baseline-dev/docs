@@ -3,7 +3,9 @@ layout: layout.njk
 title: Baseline Support for Slack
 ---
 
-## OAuth required permissions
+## Required OAuth permissions
 
-
+* users:read
+* users:read.email
+* team:read
 

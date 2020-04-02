@@ -19,13 +19,8 @@ When you request an invite, we ask you to share the services which you are using
 There is a high chance that we already support your needs, and if so, we'll send you an invite right away.
 If not, we will prioritize the missing integrations and let you know once they have launched.
 Eventually, once we support a big party of services used by you, we will open Baseline to everybody.
+In any case, head over to http://baseline.dev and request an invite :)
 
 ## Getting started with the Baseline CLI
 
-First, head to https://baseline.dev/download and download the Baseline CLI. 
-Currently we support OSX. After downloading the CLI, unzip the file and launch the CLI.
-
-## Requesting the access token
-
-After you have requested access to Baseline, we will reach out to you and provide you with an access token.
-Launch the CLI and past the access token when the CLI asks you for it. You are now ready to go.
+For more information on how to use the Baseline CLI, header over to our [dedicated docs](/getting-started/cli.html).

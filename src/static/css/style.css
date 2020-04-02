@@ -12,7 +12,7 @@ h1 {
     @apply font-extrabold;
     @apply tracking-tight;
     @apply text-gray-800;
-    @apply my-6;
+    @apply my-8;
 }
 
 h2 {
@@ -21,7 +21,8 @@ h2 {
     @apply font-extrabold;
     @apply tracking-tight;
     @apply text-gray-800;
-    @apply my-3;
+    @apply mt-6;
+    @apply mb-3;
 }
 
 h3 {
@@ -34,7 +35,7 @@ h3 {
 }
 
 p {
-    @apply mb-2;
+    @apply mb-4;
 }
 
 ul {
@@ -47,4 +48,24 @@ a {
 
 nav a {
     @apply no-underline;
+}
+
+img {
+    @apply shadow-sm;
+    @apply rounded;
+    @apply mb-4;
+}
+
+pre {
+    @apply shadow-sm;
+    @apply text-white;
+    @apply text-sm;
+    @apply font-mono;
+    @apply subpixel-antialiased;
+    @apply bg-gray-800;
+    @apply px-5;
+    @apply py-4;
+    @apply rounded;
+    @apply leading-normal;
+    @apply overflow-hidden;
 }

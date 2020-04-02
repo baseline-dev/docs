@@ -109,7 +109,7 @@ async function sideBar(baseline) {
       title: props.title,
       index: props.index,
       icon: readFileSync(join(this.dirname, 'src', 'static', 'img', props.icon), 'utf8'),
-      link: `${link}/index.html`,
+      link: props.link || `${link}/index.html`,
       subPages: getSubPages(getBasePath(path), baseline.ctx)
     });
   }

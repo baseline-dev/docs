@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "serve build -l 5001",
-    "build": "rm -rf build && NODE_ENV=production npm run build:css && NODE_ENV=production npm run build:docs",
+    "build": "rm -rf build && npm run build:assets && NODE_ENV=production npm run build:css && NODE_ENV=production npm run build:docs",
+    "build:assets": "mkdir -p ./build/assets && cp -r ./src/assets ./build",
     "build:css": "postcss ./src/static/css/style.css -c postcss.config.js -o build/static/css/layout.css",
     "build:docs": "node -r esm index.js"
   },

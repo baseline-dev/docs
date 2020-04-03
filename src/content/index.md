@@ -24,3 +24,12 @@ In any case, head over to http://baseline.dev and request an invite :)
 ## Getting started with the Baseline CLI
 
 For more information on how to use the Baseline CLI, header over to our [dedicated docs](/getting-started/cli.html).
+
+## Baseline integrations
+
+We are continuously expandign the list of supported SaaS service for you. Head over to the [integrations section](/integrations/index.html) of the documentation.
+
+## Getting involved
+
+We would appreciate it a lot if you share any suggestions, ideas or errors on these doc pages with us.
+There are different ways for you to contribute to Baseline. Head over to the [getting involved section](/getting-involved/index.html) of the documentation.

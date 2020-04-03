@@ -3,3 +3,22 @@ layout: layout.njk
 title: Getting Involved
 ---
 
+Hi awesome human 👋. You made it to the page about how to get involved 🥰.
+Here are a few things where we'd really appreciate any input, thoughts or help:
+
+## Baseline CLI
+
+The Baseline CLI is a little project which you can find [on GitHub](https://github.com/baseline-dev/cli).
+If you happen to run into any problems, we welcome any issues you open in the [issue tracker](https://github.com/baseline-dev/cli/issues).
+
+## Baseline Docs
+
+Docs make or break a product. They can be a delightful experience or can be really painful.
+We would love the Baseline Docs to be delightful. 
+So if you find any issues or have feedback, please open an issue in the [issue tracker](https://github.com/baseline-dev/docs/issues). 
+
+## Spread the love
+It is surprising again and again how often we don't really have a good picture of who in our teams has access to what.
+If you ever run into a company, person or team, or anyone really who you think could benefit from Baseline, please let them know 🙏.
+ 
+

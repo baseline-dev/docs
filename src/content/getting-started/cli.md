@@ -47,14 +47,18 @@ Paste the credential into the prompt.
 
 <img src="/assets/docs/cli-credentials.jpg" width="483" alt="Paste your credentials.">
 
+## Running the CLI
+
+You can start the CLI by `double clicking on the file` or by `opening a terminal` and then running 
+
+```shell
+./baseline-macos
+```
+
 ## Troubleshooting
 
 Sometimes it can happen that the Baseline CLI will return an error. 
 If this persists, you can delete all credentials and local settings by running the `clean` command:
-
-```shell
-./baseline-macos clean
-```
 
 <div class="my-4 rounded bg-red-100 border-t-4 border-red-500 rounded-b text-red-900 px-4 py-3 shadow-sm" role="alert">
   <div class="flex">
@@ -64,3 +68,7 @@ If this persists, you can delete all credentials and local settings by running t
     </div>
   </div>
 </div> 
+
+```shell
+./baseline-macos clean
+```

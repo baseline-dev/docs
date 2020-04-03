@@ -31,7 +31,7 @@ To use audit users which have access to Cloudflare, you need to create an apiTok
 
 Baseline relies on the following permissions to audit your Cloudflare account:
 
-| Resource   | Scope   | Permission  |
-|---|---|---|
-| Account   | Account Settings | Read  |
+| Resource | Scope            | Permission |
+|----------|------------------|------------|
+| Account  | Account Settings | Read       |
 

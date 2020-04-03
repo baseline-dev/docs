@@ -63,8 +63,8 @@ pre {
     @apply font-mono;
     @apply subpixel-antialiased;
     @apply bg-gray-800;
-    @apply px-5;
-    @apply py-4;
+    @apply py-2;
+    @apply px-3;
     @apply rounded;
     @apply leading-normal;
     @apply overflow-hidden;
@@ -75,18 +75,19 @@ table {
     @apply bg-white;
     @apply shadow;
     @apply rounded;
+    @apply mb-4;
 }
 
 td {
-    @apply py-4;
-    @apply px-6;
+    @apply py-2;
+    @apply px-3;
     @apply border-b;
     @apply border-gray-300;
 }
 
 th {
-    @apply py-4;
-    @apply px-6;
+    @apply py-2;
+    @apply px-3;
     @apply bg-gray-100;
     @apply font-bold;
     @apply uppercase;

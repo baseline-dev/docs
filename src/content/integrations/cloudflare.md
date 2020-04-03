@@ -23,9 +23,9 @@ To use audit users which have access to Cloudflare, you need to create an apiTok
 
 **Step 6.** Click on "Continue to Summary" and confirm by clicking "Create Token" on the next page.
 
-**Step 7.** Copy & Paste the token into the Baseline input for Cloudflare.
+**Step 7.** Copy & Paste the token into the Baseline input for Cloudflare. 
 
-**Step 8.** Why don't you celebrate this wonderful day? 🎉
+**Step 8.** You're done! Why don't you celebrate this wonderful day? 🎉
 
 ## Required Permissions and Internals
 

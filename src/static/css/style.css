@@ -1,7 +1,10 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
 @tailwind utilities;
 
+/* purgecss start ignore */
 body {
     @apply text-gray-800;
 }
@@ -96,3 +99,4 @@ th {
     @apply border-b;
     @apply border-gray-300;
 }
+/* purgecss end ignore */

@@ -51,7 +51,7 @@ nav a {
 }
 
 img {
-    @apply shadow-sm;
+    @apply shadow;
     @apply rounded;
     @apply mb-4;
 }
@@ -68,4 +68,30 @@ pre {
     @apply rounded;
     @apply leading-normal;
     @apply overflow-hidden;
+}
+
+table {
+    @apply text-left;
+    @apply bg-white;
+    @apply shadow;
+    @apply rounded;
+}
+
+td {
+    @apply py-4;
+    @apply px-6;
+    @apply border-b;
+    @apply border-gray-300;
+}
+
+th {
+    @apply py-4;
+    @apply px-6;
+    @apply bg-gray-100;
+    @apply font-bold;
+    @apply uppercase;
+    @apply text-sm;
+    @apply text-gray-800;
+    @apply border-b;
+    @apply border-gray-300;
 }

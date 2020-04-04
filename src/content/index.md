@@ -12,9 +12,9 @@ If you ever run into any issues which are not addressed by the docs, please reac
 Head to http://baseline.dev and request an invite.
 
 **Longer answer:** 
-We decided to make Baseline invite only for now. 
+We decided to make Baseline invite-only for now. 
 We do this because we want you to have a delightful experience when you try out Baseline for the first time.
-This means that we aim to cover each and every external service you are using. This takes a bit of time. 
+This means that we aim to cover every external service you are using. This takes a bit of time. 
 When you request an invite, we ask you to share the services which you are using. 
 There is a high chance that we already support your needs, and if so, we'll send you an invite right away.
 If not, we will prioritize the missing integrations and let you know once they have launched.
@@ -27,7 +27,7 @@ For more information on how to use the Baseline CLI, header over to our [dedicat
 
 ## Baseline integrations
 
-We are continuously expandign the list of supported SaaS service for you. Head over to the [integrations section](/integrations/index.html) of the documentation.
+We are continuously expanding the list of supported SaaS service for you. Head over to the [integrations section](/integrations/index.html) of the documentation.
 
 ## Getting involved
 

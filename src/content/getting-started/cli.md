@@ -15,21 +15,21 @@ Once you have downloaded the ZIP. Extract it to a convenient location like your 
     <div class="py-1"><svg class="fill-current h-6 w-6 text-green-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
     <div>
       <p class="font-bold">Currently we only offer a packaged version of the CLI for MacOS.</p>
-      <p class="text-sm mb-0">Head to <a href="https://github.com/baseline-dev/cli">the open source GitHub repository</a> if you want to run the CLI on a different system.</p>
+      <p class="text-sm mb-0">Head to <a href="https://github.com/baseline-dev/cli">the open-source GitHub repository</a> if you want to run the CLI on a different system.</p>
     </div>
   </div>
 </div> 
 
 ## Installation
 
-You can run the Baseline CLI by simply double clicking on the file. 
-When you do this for the firs time, MacOS will show you a warning, similar to the one below:
+You can run the Baseline CLI by simply double-clicking on the file. 
+When you do this for the first time, MacOS will show you a warning, similar to the one below:
 
 <img src="/assets/docs/install-can-not-open.jpg" width="415" alt="Can not open Baseline CLI.">
 
 Here you just have to click "Ok" and acknowledge the message. 
 Next, head over to System Preferences and open the Security & Privacy section.
-You will see a little note at the bottem mentioning "baseline-macos was blocked".
+You will see a little note at the bottom mentioning "baseline-macos was blocked".
 Press the "Open Anyway" button to confirm that you'd like to run the Baseline CLI. See the picture below:   
 
 <img src="/assets/docs/install-allow-system-preferences.jpg" width="617" alt="Confirm to open the Baseline CLI.">
@@ -49,7 +49,7 @@ Paste the credential into the prompt.
 
 ## Running the CLI
 
-You can start the CLI by `double clicking on the file` or by `opening a terminal` and then running 
+You can start the CLI by `double-clicking on the file` or by `opening a terminal` and then running 
 
 ```shell
 ./baseline-macos

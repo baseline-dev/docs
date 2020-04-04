@@ -7,7 +7,7 @@ Cloudflare, Inc. is an American web-infrastructure and website-security company,
 
 ## Setting up the Cloudflare credentials
 
-To use audit users which have access to Cloudflare, you need to create an apiToken in the Cloudflare console.
+To use audit users who have access to Cloudflare, you need to create an apiToken in the Cloudflare console.
 
 **Step 1.** Head to "My Profile" in the menu.
 

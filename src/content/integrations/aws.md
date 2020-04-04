@@ -3,12 +3,12 @@ layout: layout.njk
 title: Baseline Support for AWS
 ---
 
-Are you you using AWS for all your cloud infrastructure needs? 
-With the Baseline for AWS integration you can easily get an overview over all accounts within your AWS account.
+Are you using AWS for all your cloud infrastructure needs? 
+With the Baseline for AWS integration you can easily get an overview of all accounts within your AWS account.
 
 ## Setting up AWS for Baseline
 
-**Step 1.** Open the AWS Console, logged in with your main account.
+**Step 1.** Open the AWS Console, log in with your main account.
 
 **Step 2.** Head to the IAM console and create a new IAM user.
 

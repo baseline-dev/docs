@@ -3,7 +3,7 @@ layout: layout.njk
 title: Baseline Support for Google
 ---
 
-Are you you using the G Suite to manage your teams email, documents and many more features? 
+Are you using the G Suite to manage your team's email, documents and many more features? 
 With the Baseline for G Suite integration you can easily get an overview over everybody who makes use of your G Suite account.
 
 ## Setting up Google for Baseline

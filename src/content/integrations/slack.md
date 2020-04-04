@@ -13,7 +13,7 @@ You need to be workspace admin if you want to be able to baseline your Slack wor
 
 ## Required OAuth permissions
 
-Baseline relies on the following permissions to audit your Slac account:
+Baseline relies on the following permissions to audit your Slack account:
 
 | OAuth Scope      |
 |------------------|

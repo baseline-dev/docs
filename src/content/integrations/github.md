@@ -9,8 +9,8 @@ With the Baseline for GitHub integration you can easily review who has access to
 ## Setting up GitHub for Baseline
 
 Setting up GitHub for Baseline is super simple. Once you have kicked off a new Baseline audit, you can simply click on the GitHub card on the services selection page. 
-You need to be organization admin if you want to be able to baseline organizations.
-Please make sure that you uncheck organizations which you don't want to baseline in the GitHub authentication flow.
+You need to be an organization admin if you want to be able to baseline organizations.
+Please make sure that you uncheck organizations that you don't want to baseline in the GitHub authentication flow.
 
 ## Required OAuth permissions
 

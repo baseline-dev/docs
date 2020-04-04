@@ -65,7 +65,7 @@ function getSubPages(path, ctx) {
     const isNotRootPage = path.length;
     if (isNotRootPage && isMatch) {
       pages.push({
-        title: capitalizeWord(parse(file).name),
+        title: parse(file).name.split('-').map(capitalizeWord).join(' '),
         link: `/${join(dirname(file), renameFromMdToHtml(file))}`
       });
     }

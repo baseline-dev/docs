@@ -9,13 +9,13 @@ Go have a look at the existing integrations and start auditing your organization
 ## Existing integrations
 
 | Service                | Baseline support                       | Docs
-|------------------------|----------------------------------------|---------------------------------------|
-| Google                 | G-Suite user access audit.             | [Docs](/integrations/google.html)     |
-| GitHub                 | Organization repo access audit.        | [Docs](/integrations/github.html)     |
-| AWS                    | AWS Organizations account audit.       | [Docs](/integrations/aws.html)        |
-| Slack                  | Slack workspace user access audit.     | [Docs](/integrations/slack.html)      |
-| Cloudflare             | Cloudflare account member audit.       | [Docs](/integrations/cloudflare.html) |
-| Wordpress (selfhosted) | Cloudflare account member audit.       | [Docs](/integrations/wordpress-selfhosted.html) |
+|------------------------|----------------------------------------|-------------------------------------------------|
+| Google                 | G-Suite user access audit.             | [Docs](/integrations/google.html)               |
+| GitHub                 | Organization repo access audit.        | [Docs](/integrations/github.html)               |
+| AWS                    | AWS Organizations account audit.       | [Docs](/integrations/aws.html)                  |
+| Slack                  | Slack workspace user access audit.     | [Docs](/integrations/slack.html)                |
+| Cloudflare             | Cloudflare account member audit.       | [Docs](/integrations/cloudflare.html)           |
+| Wordpress (selfhosted) | Wordpress user audit.                  | [Docs](/integrations/wordpress-selfhosted.html) |
 
 ## Integration roadmap
 

@@ -29,7 +29,7 @@ When you do this for the first time, MacOS will show you a warning, similar to t
 
 Here you just have to click "Ok" and acknowledge the message. 
 Next, head over to System Preferences and open the Security & Privacy section.
-You will see a little note at the bottom mentioning "baseline-macos was blocked".
+You will see a little note at the bottom mentioning "baseline was blocked".
 Press the "Open Anyway" button to confirm that you'd like to run the Baseline CLI. See the picture below:   
 
 <img src="/assets/docs/install-allow-system-preferences.jpg" width="617" alt="Confirm to open the Baseline CLI.">
@@ -52,7 +52,7 @@ Paste the credential into the prompt.
 You can start the CLI by `double-clicking on the file` or by `opening a terminal` and then running 
 
 ```shell
-./baseline-macos
+./baseline
 ```
 
 ## Troubleshooting
@@ -70,5 +70,5 @@ If this persists, you can delete all credentials and local settings by running t
 </div> 
 
 ```shell
-./baseline-macos clean
+./baseline clean
 ```

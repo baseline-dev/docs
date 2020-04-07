@@ -45,6 +45,7 @@ This means that integrating with them in an automated fashion is possible.
 | Adobe         | Tbd.             |
 | Trello        | Tbd.             |
 | New Relic     | Tbd.             |
+| Netlify       | Tbd.             |
 
 These services DO NOT! support access to their organizational resources through an API.
 This means that we can not fully automate the integration. 

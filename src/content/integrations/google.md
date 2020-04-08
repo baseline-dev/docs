@@ -13,10 +13,8 @@ You need to be an admin if you want to be able to baseline G Suite.
 
 ## Setting up Google Cloud for Baseline
 
-**Step 1:** Enable the Cloud Resources API by heading to the [Google Cloud console](https://console.developers.google.com/apis/library/cloudresourcemanager.googleapis.com).
-
-**Step 2:** Enable the Identity and Access Management API by heading to the [Google Cloud console](https://console.developers.google.com/apis/api/iam.googleapis.com).
- 
+Setting up Google Cloud for Baseline is super simple. Once you have kicked off a new Baseline audit, you can simply click on the Google card on the services selection page. 
+You need to be an admin if you want to be able to baseline Google Cloud. 
 
 ## Required OAuth permissions
 

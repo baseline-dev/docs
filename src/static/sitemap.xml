@@ -22,10 +22,13 @@
     <loc>https://docs.baseline.dev/integrations/google.html</loc>
   </url>
   <url>
-    <loc>https://docs.baseline.dev/integrations/slack.html</loc>
+    <loc>https://docs.baseline.dev/integrations/intercom.html</loc>
   </url>
   <url>
     <loc>https://docs.baseline.dev/integrations/wordpress-selfhosted.html</loc>
+  </url>
+  <url>
+    <loc>https://docs.baseline.dev/integrations/slack.html</loc>
   </url>
   <url>
     <loc>https://docs.baseline.dev/getting-involved/index.html</loc>

@@ -9,7 +9,7 @@
     "build:assets": "mkdir -p ./build/assets && cp -r ./src/assets ./build",
     "build:css": "postcss ./src/static/css/style.css -c postcss.config.js -o build/static/css/layout.css",
     "build:sitemap": "node -r esm ./lib/sitemap.js",
-    "build:docs": "node -r esm index.js"
+    "build:docs": "node -r esm index.js && cp ./src/static/sitemap.xml ./build"
   },
   "repository": {
     "type": "git",

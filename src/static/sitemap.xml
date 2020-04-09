@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:5001/</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/getting-started/cli</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/aws</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/cloudflare</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/github</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/google</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/slack</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations/wordpress-selfhosted</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/integrations</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5001/getting-involved</loc>
+  </url>
+</urlset>

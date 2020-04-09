@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:5001/</loc>
+    <loc>https://docs.baseline.dev/</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/getting-started/cli</loc>
+    <loc>https://docs.baseline.dev/getting-started/cli.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/aws</loc>
+    <loc>https://docs.baseline.dev/integrations/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/cloudflare</loc>
+    <loc>https://docs.baseline.dev/integrations/aws.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/github</loc>
+    <loc>https://docs.baseline.dev/integrations/cloudflare.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/google</loc>
+    <loc>https://docs.baseline.dev/integrations/github.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/slack</loc>
+    <loc>https://docs.baseline.dev/integrations/google.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations/wordpress-selfhosted</loc>
+    <loc>https://docs.baseline.dev/integrations/slack.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/integrations</loc>
+    <loc>https://docs.baseline.dev/integrations/wordpress-selfhosted.html</loc>
   </url>
   <url>
-    <loc>http://localhost:5001/getting-involved</loc>
+    <loc>https://docs.baseline.dev/getting-involved/index.html</loc>
   </url>
 </urlset>

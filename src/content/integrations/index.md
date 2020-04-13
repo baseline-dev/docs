@@ -10,13 +10,15 @@ Go have a look at the existing integrations and start auditing your organization
 
 | Service                | Baseline support                       | Docs
 |------------------------|----------------------------------------|-------------------------------------------------|
-| Google                 | User access audit.                     | [Docs](/integrations/google.html)               |
+| Google Suite           | User access audit.                     | [Docs](/integrations/google.html)               |
+| Google Cloud           | Project access audit.                  | [Docs](/integrations/google.html)               |
 | GitHub                 | Organization repo access audit.        | [Docs](/integrations/github.html)               |
 | AWS                    | AWS Organizations account audit.       | [Docs](/integrations/aws.html)                  |
 | Slack                  | Workspace user access audit.           | [Docs](/integrations/slack.html)                |
 | Cloudflare             | Account member audit.                  | [Docs](/integrations/cloudflare.html)           |
 | Wordpress (selfhosted) | User audit.                            | [Docs](/integrations/wordpress-selfhosted.html) |
 | Intercom               | Admin audit.                           | [Docs](/integrations/intercom.html) |
+| HubSpot                | Owner audit.                           | [Docs](/integrations/hubspot.html) |
 
 ## Integration roadmap
 
@@ -32,7 +34,6 @@ This means that integrating with them in an automated fashion is possible.
 | Atlassian     | Tbd.             |
 | Trello        | Tbd.             |
 | Datadog       | Tbd.             |
-| Google Cloud  | Tbd.             |
 | GitLab        | Tbd.             |
 | Salesforce    | Tbd.             |
 | Dropbox       | Tbd.             |

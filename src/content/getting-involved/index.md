@@ -6,10 +6,10 @@ title: Getting Involved
 Hi awesome human 👋. You made it to the page about how to get involved 🥰.
 Here are a few things where we'd appreciate any input, thoughts or help:
 
-## Baseline CLI
+## Baseline Application
 
-The Baseline CLI is a little project which you can find [on GitHub](https://github.com/baseline-dev/cli).
-If you happen to run into any problems, we welcome any issues you open in the [issue tracker](https://github.com/baseline-dev/cli/issues).
+You can find the open source Baseline Application [on GitHub](https://github.com/baseline-dev/desktop-client).
+If you happen to run into any problems, we welcome any issues you open in the [issue tracker](https://github.com/baseline-dev/desktop-client/issues).
 
 ## Baseline Docs
 

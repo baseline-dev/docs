@@ -1,7 +1,20 @@
 ---
 layout: layout.njk
 title: The Baseline CLI
+deprecated: true
 ---
+
+<div class="my-4 rounded bg-red-100 border-t-4 border-red-500 rounded-b text-red-900 px-4 py-3 shadow-sm" role="alert">
+  <div class="flex">
+    <div class="py-1"><svg class="fill-current h-6 w-6 text-red-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
+    <div>
+        <h2 class="text-xl mt-0 text-red-900">Deprecation Notice!</h2>
+      <p class="text-sm mb-0">
+      The Baseline CLI has been deprecated. Please use the <a href="./application.html">Baseline application</a> moving forward. 
+      </p>
+    </div>
+  </div>
+</div> 
 
 The Baseline CLI is a simple, yet powerful little tool to allow you to execute all Baseline commands.
 
@@ -15,7 +28,7 @@ Once you have downloaded the ZIP. Extract it to a convenient location like your 
     <div class="py-1"><svg class="fill-current h-6 w-6 text-green-500 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4zm0-6h2v2H9V5z"/></svg></div>
     <div>
       <p class="font-bold">Currently we only offer a packaged version of the CLI for MacOS.</p>
-      <p class="text-sm mb-0">Head to <a href="https://github.com/baseline-dev/cli">the open-source GitHub repository</a> if you want to run the CLI on a different system.</p>
+      <p class="text-sm mb-0">Head to <a href="https://github.com/baseline-dev/desktop-client">the open-source GitHub repository</a> if you want to run the CLI on a different system.</p>
     </div>
   </div>
 </div> 

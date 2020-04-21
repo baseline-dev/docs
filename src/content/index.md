@@ -21,9 +21,9 @@ If not, we will prioritize the missing integrations and let you know once they h
 Eventually, once we support a big party of services used by you, we will open Baseline to everybody.
 In any case, head over to http://baseline.dev and request an invite :)
 
-## Getting started with the Baseline CLI
+## Getting started with Baseline
 
-For more information on how to use the Baseline CLI, header over to our [dedicated docs](/getting-started/cli.html).
+For more information on how to use the Baseline Application, header over to our [dedicated docs](/getting-started/application.html).
 
 ## Baseline integrations
 

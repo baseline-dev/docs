@@ -6,6 +6,8 @@ title: Getting Started with Baseline
 Welcome to Baseline 🎉 We're really happy that you made it to the documentation pages of Baseline. 
 If you ever run into any issues which are not addressed by the docs, please reach out to us [support@baseline.dev](mailto:support@baseline.dev).  
 
+<img src="/assets/docs/app-baseline.jpg" class="shadow-none" width="911" alt="Baseline Results.">
+
 ## How do I get access to Baseline?
 
 **Short answer:** 

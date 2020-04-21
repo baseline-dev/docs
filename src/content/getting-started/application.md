@@ -26,7 +26,10 @@ Once you have downloaded the DMG, double click the download. You can then move t
 ## Installation
 
 When you launch Baseline for the first time, OSX will prompt you to confirm that you want to open Baseline. 
-Click to proceed.
+Click `Open` to proceed.
+
+<img src="/assets/docs/app-confirm-running.jpg" class="shadow-none" width="532" alt="Baseline Application Confirm launch.">
+
 
 ## Requesting the access token
 

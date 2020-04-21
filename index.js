@@ -63,7 +63,7 @@ function getSubPages(path, ctx) {
     const regexp = new RegExp(`^${path}\/(?!index\.md)`);
     const isMatch = regexp.test(`/${file}`)
     const isNotRootPage = path.length;
-    if (isNotRootPage && isMatch) {
+    if (isNotRootPage && isMatch && !ctx[file].data.deprecated) {
       pages.push({
         title: parse(file).name.split('-').map(capitalizeWord).join(' '),
         link: `/${join(dirname(file), renameFromMdToHtml(file))}`

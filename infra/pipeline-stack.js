@@ -13,8 +13,8 @@ class PipelineStack extends Stack {
     const cloudAssemblyArtifact = new Artifact('asmb');
     const { owner, name, secretArn, branch } = this.node.tryGetContext('repo');
 
-    const pipeline = new CdkPipeline(this, 'Website', {
-      pipelineName: 'Website',
+    const pipeline = new CdkPipeline(this, 'Docs', {
+      pipelineName: 'Docs',
       cloudAssemblyArtifact,
 
       sourceAction: new GitHubSourceAction({

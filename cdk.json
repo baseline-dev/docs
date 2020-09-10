@@ -1,0 +1,18 @@
+{
+  "app": "bin/pipeline.js",
+  "context": {
+    "@aws-cdk/core:newStyleStackSynthesis": true,
+    "repo": {
+      "owner": "nonken",
+      "name": "baseline-docs",
+      "secretArn": "arn:aws:secretsmanager:us-east-1:366378881925:secret:github/token-iPNJmK"
+    },
+    "zone": {
+      "hostedZoneId": "Z03829591136D35O1G3CN",
+      "zoneName": "baseline.dev"
+    },
+    "certificateArn": "arn:aws:acm:us-east-1:366378881925:certificate/c56fc758-ea2a-4e37-b8e1-c2ed4f92f1be",
+    "staticAssetsHostName": "static.baseline.dev",
+    "docsHostName": "docs.baseline.dev"
+  }
+}

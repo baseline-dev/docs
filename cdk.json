@@ -12,7 +12,6 @@
       "zoneName": "baseline.dev"
     },
     "certificateArn": "arn:aws:acm:us-east-1:366378881925:certificate/c56fc758-ea2a-4e37-b8e1-c2ed4f92f1be",
-    "staticAssetsHostName": "static.baseline.dev",
     "docsHostName": "docs.baseline.dev"
   }
 }

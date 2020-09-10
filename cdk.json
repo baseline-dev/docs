@@ -3,8 +3,8 @@
   "context": {
     "@aws-cdk/core:newStyleStackSynthesis": true,
     "repo": {
-      "owner": "nonken",
-      "name": "baseline-docs",
+      "owner": "baseline-dev",
+      "name": "docs",
       "secretArn": "arn:aws:secretsmanager:us-east-1:366378881925:secret:github/token-iPNJmK"
     },
     "zone": {

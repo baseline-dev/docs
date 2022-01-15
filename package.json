@@ -27,7 +27,7 @@
     "esm": "^3.2.25",
     "gray-matter": "^4.0.2",
     "lodash.merge": "^4.6.2",
-    "marked": "^0.8.2",
+    "marked": "^4.0.10",
     "nunjucks": "^3.2.1",
     "recursive-readdir": "^2.2.2",
     "slug": "^2.1.1"
